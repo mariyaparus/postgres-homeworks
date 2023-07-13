@@ -2,7 +2,7 @@
 import psycopg2
 import csv
 
-conn = psycopg2.connect(host='localhost', database='north', user='postgres', password='2511')
+conn = psycopg2.connect(host='localhost', database='north', user='postgres', password='******')
 
 
 def employees_add_data():
